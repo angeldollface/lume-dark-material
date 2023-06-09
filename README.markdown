@@ -35,13 +35,13 @@ cd lume-dark-material
 deno task serve
 ```
 
-4.) If you want to compile this blog, use this command:
+- 4.) If you want to compile this blog, use this command:
 
 ```bash
 deno task build
 ```
 
-5.) Further customization:
+- 5.) Further customization:
     - Site data can be found in `_data/site.json` for site-wide variables.
     - Navigation links can be found in `_data/naviagtion.json`.
     - Colors and fonts can be customized in `css/index.scss`.

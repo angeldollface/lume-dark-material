@@ -15,7 +15,7 @@ You should have the following tools installed and available from the command lin
 - [Deno](https://deno.land)
 - [Git](https://git-scm.org)
 
-To build and serve this blog on your own machine, follow these steps:
+To learn how to use this repository on your own machine follow these steps:
 
 - 1.) Clone this project's source code:
 

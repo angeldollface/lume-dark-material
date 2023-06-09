@@ -1,0 +1,9 @@
+---
+title: "Page not found"
+layout: "layouts/page.njk"
+---
+
+## Page not found
+
+The page ypu requested does not exist on this site! 
+Head back to [safety](/lume-dark-material/)?

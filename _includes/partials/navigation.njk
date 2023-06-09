@@ -1,0 +1,10 @@
+<div class="menuBar"></div>
+<div class="menu">
+ <ul class="menu">
+  {% for key, value in navigation %}
+   <li class="menuItem">
+    <a class="menuItem" href="{{ site.baseurl }}{{ value }}">{{ key }}</a> 
+   </li>
+  {% endfor %}
+ </ul>
+</div>

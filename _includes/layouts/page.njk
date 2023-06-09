@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+ {% include 'partials/head.njk' %}
+ <body>
+  {% include 'partials/navigation.njk' %}
+  {% include 'partials/heading.njk' %}
+  <div class="breaker"></div>
+  <div class="content">
+   {{ content | safe }}
+  </div>
+  <div class="breaker"></div> 
+ </body>
+</html>

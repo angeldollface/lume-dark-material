@@ -1,0 +1,59 @@
+/*
+LUME DARK MATERIAL by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+@media screen and (max-width: 800px){
+    img.pfp {
+        width: 150px;
+        height: 150px;
+    }
+    h1.heading {
+        font-size: 35px;
+    }
+    p.motto {
+        font-size: 20px;
+    }    
+    div.content {
+        width: 90%;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 23px;
+    }
+    p {
+        font-size: 22px;
+    }
+    p.postDescription {
+        font-size: 22px;
+    }
+    a {
+        font-size: 22px;
+    }    
+    div.breaker {
+        height: 30px;
+    }
+    li {
+        font-size: 22px;
+    }    
+    div.menuBar {
+        display: none;
+    }
+    div.menu {
+        width: 100%;
+    }
+    ul.menu {
+        padding-top: 15px;
+    }
+    li.menuItem {
+        font-size: 22px;
+    }
+    a.menuItem {
+        font-size: 22px;
+    }
+}

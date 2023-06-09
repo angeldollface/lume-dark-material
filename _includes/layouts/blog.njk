@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ {% include 'partials/head.njk' %}
+ <body>
+  {% include 'partials/navigation.njk' %}
+  {% include 'partials/heading.njk' %}
+  <div class="breaker"></div>
+  {% for item in search.pages("url^=/posts/") %}
+   <div class="content">
+    <h2>{{ item.data.title }}</h2>
+    <p class="postDescription">
+     {{ item.data.description }}
+    <p>
+    <a href="{{site.baseurl}}{{ item.data.url }}">{{ site.readMeText }}</a>
+    </p>
+  </div>
+  <div class="breaker"></div>
+  {% endfor %}
+ </body>
+</html>

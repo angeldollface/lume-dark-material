@@ -1,0 +1,231 @@
+/*
+LUME DARK MATERIAL by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+html {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: $backgroundColor;
+}
+img.pfp {
+    margin: 0 auto;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding: 0px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 6px solid $accentColor;
+    object-fit: cover;
+    box-shadow: 1px 12px 25px $dropShadowColor;
+}
+h1.heading {
+    text-align: center;
+    font-size: 40px;
+    color: $accentColor;
+    padding: 0px;
+    margin: 0px;
+    font-family: $mainFont;
+}
+p.motto {
+    text-align: center;
+    font-size: 25px;
+    color: $accentColor;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: $mainFont;
+}
+div.content {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 15px;
+    background-color: $contrastColor;
+    padding: 0px;
+    box-shadow: 1px 12px 25px $dropShadowColor;
+}
+h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: $accentColor;
+    font-family: $contentFont;
+    margin: 0px;
+}
+h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 27px;
+    color: $accentColor;
+    font-family: $contentFont;
+    margin: 0px;
+}
+h4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-family: $contentFont;
+    color: $accentColor;
+    margin: 0px;
+}
+p {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: $accentColor;
+    font-family: $contentFont;
+    margin: 0px;
+}
+p.postDescription {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 21px;
+    font-family: $contentFont;
+    color: $accentColor;
+    margin: 0px;
+}
+a {
+    padding: 0px;
+    font-size: 21px;
+    color: $accentColor;
+    margin: 0px;
+    font-family: $contentFont;
+    transition-duration: 0.6s;
+    text-decoration: underline;
+}
+a:hover {
+    color: $hoverColor;
+}
+div.breaker {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    height: 40px;
+    background-color: transparent;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+li {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-family: $contentFont;
+    color: $accentColor;
+    margin: 0px;
+}
+li::before {
+    content: '-';
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom:0px;
+    margin: 0px;
+}
+div.menuBar {
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: $contrastColor;
+    margin: 0px;
+    padding: 0px;
+    height: 15px;
+}
+div.menu {
+    margin: 0 auto;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    display: block;
+    overflow-x: scroll;
+    width: 50%;
+    background-color: $contrastColor;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: none;
+}
+ul.menu {
+    width: 100%;
+    padding-top: 0px;
+    overflow-x: scroll;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+li.menuItem {
+    padding: 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 21px;
+    font-family: $mainFont;
+    color: $accentColor;
+    display: inline-block;
+}
+a.menuItem {
+    padding: 0px;
+    margin: 0px;
+    font-size: 21px;
+    font-family: $mainFont;
+    transition-duration: 0.6s;
+    text-decoration: none;
+}
+a.menuItem:hover {
+    color: $hoverColor;
+}
+li.menuItem::before {
+    content: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}

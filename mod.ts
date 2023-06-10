@@ -23,7 +23,7 @@ export default () => (site: Site) => {
   ];
 
   for (const file of files) {
-    site.remoteFile(file, import.meta.resolve(`./src/${file}`));
+    site.remoteFile(file, import.meta.resolve(`./${file}`));
   }
 
   // Configure the site

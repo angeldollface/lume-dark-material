@@ -1,0 +1,19 @@
+name: LUME CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Clone repository
+        uses: actions/checkout@v2
+        
+      - name: Setup Deno environment
+        uses: denoland/setup-deno@v1.1.2
+        with:
+          deno-version: v1.34.1
+          
+      - name: Build demo site
+        run: cd demo && deno task build

@@ -8,6 +8,10 @@
 
 Since I'm a huge fan of [Lume](https://github.com/lumeland/lume), I thought I'd help out [@oscarotero](https://github.com/oscarotero) and add a theme for Lume. In case you are wondering what Lume is: Lume generates a static site from a set of templates and Markdown files. This repository contains a pre-fabricated set of templates, layouts, and styles to make the job easier of getting your personal blog or site up and running as fast as possible.
 
+## SCREENSHOT :camera:
+
+![Screenshot for Lume Dark Material](/screenshot/screenshot.png)
+
 ## USAGE :hammer:
 
 You should have the following tools installed and available from the command line:

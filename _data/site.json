@@ -1,9 +1,8 @@
 {
-    "title": "Angel Dollface",
-    "copyRightText": "2023",
-    "description": "A doll's website.",
+    "title": "Your Name here.",
+    "description": "Your personal website.",
     "readMeText": "Read More",
-    "motto": "Everyone's favorite doll!",
+    "motto": "Everyone's favorite human!",
     "baseurl": "/lume-dark-material",
     "pfpURL":"/assets/logo.jpg"
 }

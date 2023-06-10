@@ -1,4 +1,4 @@
-name: LUME CI
+name: LUME CI DEMO
 on:
   push:
     branches: [ main ]

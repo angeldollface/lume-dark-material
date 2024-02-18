@@ -53,7 +53,7 @@ deno task build
     - Any blog posts need to be stored in the `posts` directory.
     - If you have any further questions or problems, open an issue. :heart_on_fire:
 
-- 6.) You can view a live, deployed version of this site [here](https://angeldollface.art/lume-dark-material).
+- 6.) You can view a live, deployed version of this site [here](https://angeldollface.boo/lume-dark-material).
 
 ## CHANGELOG :black_nib:
 
